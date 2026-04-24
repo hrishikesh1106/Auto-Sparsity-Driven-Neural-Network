@@ -1,0 +1,21 @@
+# Self-Pruning Neural Network — Dependencies
+# ============================================
+# Install with:  pip install -r requirements.txt
+#
+# GPU (CUDA 12.x) build — swap the torch/torchvision lines below
+# if you are on CPU-only or a different CUDA version:
+#   CPU-only : pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   CUDA 11.8: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# Core deep-learning stack
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Plotting
+matplotlib>=3.7.0
+
+# Testing (not needed for the main script)
+pytest>=7.4.0
